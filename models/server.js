@@ -30,7 +30,7 @@ class Server {
   }
 
   listen() {
-    app.listen(this.port, () => {
+    this.app.listen(this.port, () => {
       console.log(`Example app listening at http://localhost:${this.port}`);
     });
   }
